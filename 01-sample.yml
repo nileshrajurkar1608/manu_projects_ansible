@@ -1,7 +1,6 @@
 - name: Playbook name is Play1 
   hosts: all  
   tasks:
-  - name: Print hello from play1
+  - name: Print hello from task1 
     ansible.builtin.debug:
-      msg: System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}
-    when: ansible_default_ipv4.gateway is defined
+      msg: 
