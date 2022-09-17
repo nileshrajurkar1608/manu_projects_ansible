@@ -1,4 +1,4 @@
-- name: Playbook name is first-playbook 
+- name: Playbook name is Play1 
   hosts: all  
   tasks:
   - name: Print hello from play1
