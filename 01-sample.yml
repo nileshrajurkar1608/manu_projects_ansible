@@ -1,7 +1,7 @@
 - name: Playbook name is first-playbook 
   hosts: all  
   tasks:
-  - name: Print the gateway for each host when defined
+  - name: Print hello from play1
     ansible.builtin.debug:
       msg: System {{ inventory_hostname }} has gateway {{ ansible_default_ipv4.gateway }}
     when: ansible_default_ipv4.gateway is defined
