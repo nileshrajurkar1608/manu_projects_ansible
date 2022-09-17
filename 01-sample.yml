@@ -21,6 +21,7 @@
       ansible.builtin.debug:
         msg: Hai from the task2 of play2
 
+--- 
 
 - name: Playbook name is Play1 
   hosts: all  
