@@ -18,4 +18,4 @@
 
     - name: hello from tasks
       ansible.builtin.debug:
-        msg: Hai from the task2 of play1 
+        msg: Hai from the task2 of play2
