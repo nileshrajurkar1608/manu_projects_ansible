@@ -68,3 +68,10 @@ What is task ? A Task is an action or actions that you wish to do!
 Ansible playbooks should always ends with .yml or .yaml. Anything apart from that won't be considered.
 
 ### How do you run the playbooks ?
+
+```
+
+ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 01-sample.yml
+
+``` 
+
