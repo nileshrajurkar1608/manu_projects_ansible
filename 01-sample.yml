@@ -1,10 +1,10 @@
 - name: Playbook name is Play1 
   hosts: all  
   tasks:
-  - name: Print hello from task1 
-    ansible.builtin.debug:
-      msg: Hai from the task1 of play1 
+    - name: Print hello from task1 
+      ansible.builtin.debug:
+        msg: Hai from the task1 of play1 
 
-  - name: Print hello from playy1 
-    ansible.builtin.debug:
-      msg: Hai from the task2 of play1 
+    - name: Print hello from playy1 
+      ansible.builtin.debug:
+        msg: Hai from the task2 of play1 
