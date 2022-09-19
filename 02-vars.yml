@@ -9,5 +9,5 @@
 
     - name: pritning URL with quotes  
       ansible.builtin.debug:
-        msg: Url that we print is {{URL}}
+        msg: "{{URL}}
    
