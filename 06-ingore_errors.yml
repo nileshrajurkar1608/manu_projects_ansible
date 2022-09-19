@@ -2,5 +2,7 @@
   hosts: all  
   tasks: 
     - name: Check Tomcat is running or not
-      ansible.builtin.shell:
+      ansible.builtin.shell: ps -ef |grep java | grep -v grep  
+
+    
         
