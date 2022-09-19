@@ -3,4 +3,4 @@
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
-        msg: Url that we print is {{ URL }}  
+        msg: OS Distro  
