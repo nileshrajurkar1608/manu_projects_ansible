@@ -1,4 +1,4 @@
 - name: demo on outputs 
   hosts: all 
   tasks:
-    - name: Run 
+    - name: Running a shell command  
