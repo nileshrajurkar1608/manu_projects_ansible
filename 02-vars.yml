@@ -14,7 +14,9 @@
         URL: task.google.com 
 
     - name: Printing URL from CLI 
-      
+      ansible.builtin.debug:
+        msg: "{{ URL }}" 
+      vars:                 # local variable    
 
 # When to use "" for variables ? when the variable is the start of the line or the only one in the print list 
 
