@@ -12,3 +12,6 @@
       ansible.builtin.debug: 
           msg: Hello to ubuntu  
       when: ansible_distribution == "Ubuntu"
+
+    - name
+      when: epic
