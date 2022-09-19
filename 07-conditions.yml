@@ -1,5 +1,7 @@
 - name: demo on conditions 
   hosts: all  
+  when: 
+  
   tasks: 
     - name: Run this when the OS is CentOS 
       ansible.builtin.debug: 
