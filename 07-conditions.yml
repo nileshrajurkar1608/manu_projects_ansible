@@ -1,4 +1,4 @@
-- name: demo on ingore errors 
+- name: demo on conditions 
   hosts: all  
   tasks: 
     - name: Check Tomcat is running or not
