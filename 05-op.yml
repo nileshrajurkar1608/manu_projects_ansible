@@ -13,4 +13,6 @@
       set_fact: 
         STATUS: "{{OUT.rc}}"
     
+    - name: printing the uptime status 
+      debug: 
 
