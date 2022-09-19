@@ -3,5 +3,5 @@
   tasks:
     - name: Copy file 
       ansible.builtin.copy:
-        src: /srv/myfiles/foo.conf
+        src: /home/centos/
         dest: /etc/foo.conf
