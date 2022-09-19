@@ -6,4 +6,8 @@
     - name: pritning URL  
       ansible.builtin.debug:
         msg: Url that we print is {{URL}}
+
+    - name: pritning URL with quotes  
+      ansible.builtin.debug:
+        msg: Url that we print is {{URL}}
    
