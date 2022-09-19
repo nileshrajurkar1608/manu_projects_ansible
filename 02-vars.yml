@@ -6,6 +6,4 @@
     - name: pritning URL  
       ansible.builtin.debug:
         msg: Url that we print is {{URL}}
-
-    $a $bb 
-    {{URL}}  {{ URL }} 
+   
