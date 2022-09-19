@@ -1,6 +1,6 @@
 - name: demo on variables 
   hosts: all  # all is default group in inventory file which includes everything 
-  vars: 
+  vars:       # Global varibale
       URL: play.google.com  
   tasks: 
     - name: pritning URL  
