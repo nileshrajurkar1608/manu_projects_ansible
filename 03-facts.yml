@@ -5,4 +5,7 @@
       ansible.builtin.debug:
         msg: OS Distro is {{ansible_distribution}} 
 
-        {{ansible_default_ipv4.}}
+    - name: pritning URL  
+      ansible.builtin.debug:
+        msg: OS Distro is {{ansible_distribution}} 
+        {{ansible_default_ipv4.macaddress}}
