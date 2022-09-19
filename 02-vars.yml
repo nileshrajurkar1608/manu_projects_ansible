@@ -7,4 +7,5 @@
       ansible.builtin.debug:
         msg: Url that we print is 
 
-    $a  
+    $a $bb 
+    {} 
