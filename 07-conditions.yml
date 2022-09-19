@@ -2,7 +2,7 @@
   hosts: all  
   vars:
     # epic: true 
-    actor: true 
+    # actor: true 
   tasks: 
     - name: Run this when the OS is CentOS 
       ansible.builtin.debug: 
