@@ -5,7 +5,6 @@
       ansible.builtin.debug: 
           msg: Hello to centos  
 
-    - name: Performing start  
+    - name: Run this when the OS is Ubuntu 
       ansible.builtin.debug: 
-        msg: Starting Tomcat
-      
+          msg: Hello to centos  
