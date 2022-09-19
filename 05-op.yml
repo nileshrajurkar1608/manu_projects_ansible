@@ -7,3 +7,4 @@
     
     - name: printing out variable 
       debug: 
+        msg: "{{OUT}}"
