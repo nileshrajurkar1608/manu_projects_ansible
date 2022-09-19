@@ -15,5 +15,5 @@
     
     - name: printing the uptime status 
       ansible.builtin.debug: 
-        msg: status of uptime is
+        msg: status of uptime is {{STATUS}}
 
