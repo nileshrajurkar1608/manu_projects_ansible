@@ -2,5 +2,5 @@
   hosts: all  
   tasks: 
     - name: Check Tomcat is running or not
-      ansible.builtin.debug:
-        msg: Url that we print is {{ URL }}  
+      ansible.builtin.shell:
+        
