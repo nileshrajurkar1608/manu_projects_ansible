@@ -17,3 +17,4 @@
       ansible.builtin.debug: 
         msg: status of uptime is {{STATUS}}
 
+# set_fact is deprecated in version 6 
