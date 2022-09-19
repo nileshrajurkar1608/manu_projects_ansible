@@ -1,6 +1,5 @@
 - name: demo on facts
   hosts: all  
-
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
