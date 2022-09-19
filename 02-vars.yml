@@ -23,4 +23,4 @@
 # When to use "" for variables ? when the variable is the start of the line or the only one in the print list 
 
 # CLI Variable > local variable > global variable 
-# 
+# Prirting an undefined variable throws you exception.
