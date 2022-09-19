@@ -10,7 +10,7 @@
     - name: pritning URL with quotes  
       ansible.builtin.debug:
         msg: "{{ URL }}" 
-      vars: 
+      vars:                 # local variable 
         URL: task.google.com 
 
 
