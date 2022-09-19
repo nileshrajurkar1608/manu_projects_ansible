@@ -24,3 +24,6 @@
 
 # CLI Variable > local variable > > files_variables>  global variable 
 # Prirting an undefined variable throws you exception.
+
+
+# Prompt variables : readp -
