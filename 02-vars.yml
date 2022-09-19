@@ -1,5 +1,5 @@
 - name: demo on variables 
-  hosts: prod  # all is default group in inventory file which includes everything 
+  hosts: {{ENV}}  # all is default group in inventory file which includes everything 
   vars:       # Global varibale
       URL: play.google.com 
   # vars_prompt:
