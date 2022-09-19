@@ -18,7 +18,7 @@
         msg: URL_CLI is {{ CLI_URL }} 
 
 
-# {{}}
+# {{URL}} : This is how you print a variable 
 
 # When to use "" for variables ? when the variable is the start of the line or the only one in the print list 
 
