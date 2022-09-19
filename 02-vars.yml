@@ -15,7 +15,7 @@
 
     - name: Printing URL from CLI 
       ansible.builtin.debug:
-        msg: URL_CLI "{{ CLI_URL }}" 
+        msg: URL_CLI is {{ CLI_URL }}" 
 
 
 # When to use "" for variables ? when the variable is the start of the line or the only one in the print list 
