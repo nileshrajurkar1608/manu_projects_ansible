@@ -11,4 +11,6 @@
   
     - name: Declaring variable 
       set_fact: 
-        STATUS: "{{OUT.}}"
+        STATUS: "{{OUT.rc}}"
+
+        
