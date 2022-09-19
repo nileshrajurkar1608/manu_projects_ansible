@@ -3,4 +3,4 @@
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
-        msg: OS Distro  
+        msg: OS Distro is {{ansible_distribution}} 
