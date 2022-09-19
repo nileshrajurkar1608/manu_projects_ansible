@@ -3,7 +3,8 @@
   vars:       # Global varibale
       URL: play.google.com 
   vars_prompt:
-       
+      - name: URL 
+         
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
