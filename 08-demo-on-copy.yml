@@ -1,6 +1,7 @@
-- name: demo on co
-
-- name: Copy file with owner and permissions
-  ansible.builtin.copy:
-    src: /srv/myfiles/foo.conf
-    dest: /etc/foo.conf
+- name: demo on copy 
+  hosts: all 
+  tasks:
+    - name: Copy file 
+      ansible.builtin.copy:
+        src: /srv/myfiles/foo.conf
+        dest: /etc/foo.conf
