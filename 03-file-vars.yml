@@ -18,3 +18,5 @@
     - name: URL for this env is 
       ansible.builtin.debug:
         msg: "{{ ENV }}" 
+
+# CLI Variable > local variable > > files_variables>  global variable 
