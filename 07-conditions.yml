@@ -13,5 +13,6 @@
           msg: Hello to ubuntu  
       when: ansible_distribution == "Ubuntu"
 
-    - name: Only executes 
+    - name: Only executes when the epic is true 
+    
       when: epic
