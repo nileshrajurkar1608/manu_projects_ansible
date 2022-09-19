@@ -9,3 +9,4 @@
     - name: Run this when the OS is Ubuntu 
       ansible.builtin.debug: 
           msg: Hello to ubuntu  
+      when: ansible_distribution == "Ubuntu"
