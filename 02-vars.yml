@@ -16,4 +16,4 @@
 
 # When to use "" for variables ? when the variable is the start of the line or the only one in the print list 
 
-   
+# local variable > global variable 
