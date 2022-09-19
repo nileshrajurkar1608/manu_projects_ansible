@@ -2,8 +2,6 @@
   hosts: all  # all is default group in inventory file which includes everything 
   vars:       # Global varibale
       URL: play.google.com  
-  vars_files:
-    - dev-vars.yml 
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
