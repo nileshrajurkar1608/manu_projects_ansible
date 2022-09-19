@@ -3,7 +3,7 @@
   tasks: 
     - name: Run this when the OS is CentOS 
       ansible.builtin.debug: 
-          msg: 
+          msg: ansible_distribution 
 
     - name: Performing start  
       ansible.builtin.debug: 
