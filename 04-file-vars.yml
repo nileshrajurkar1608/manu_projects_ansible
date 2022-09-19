@@ -3,6 +3,8 @@
  
   vars_files:
       - dev-vars.yml 
+  vars:       # Global varibale
+      URL: play.google.com 
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
