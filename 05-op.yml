@@ -10,4 +10,5 @@
         msg: "{{OUT.stdout}}"
   
     - name: Declaring variable 
-      set_fact:
+      set_fact: 
+        STATUS: "{{OUT.}}"
