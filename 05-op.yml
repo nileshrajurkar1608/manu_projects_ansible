@@ -3,3 +3,4 @@
   tasks:
     - name: Running a shell command  
       ansible.builtin.shell: uptime 
+      register: OUT
