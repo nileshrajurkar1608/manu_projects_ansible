@@ -2,4 +2,5 @@
   hosts: all  # all is default group in inventory file which includes everything 
   vars: 
       URL: play.google.com  
-  tasks:
+  tasks: 
+    - name: 
