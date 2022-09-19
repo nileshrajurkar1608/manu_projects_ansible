@@ -19,4 +19,5 @@
       when: epic
 
     - name: Run this when actor variable is declared 
-      debug
+      ansible.builtin.debug: 
+          msg: In this infite world we are just start dust 
