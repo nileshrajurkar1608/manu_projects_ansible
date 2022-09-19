@@ -8,5 +8,5 @@
     - name: pritning Mac Address   
       ansible.builtin.debug:
         msg: Mac Address is  {{ansible_default_ipv4.macaddress}}
-        
+
        
