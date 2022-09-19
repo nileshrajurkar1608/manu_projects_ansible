@@ -1,7 +1,9 @@
 - name: demo on variables 
   hosts: all  # all is default group in inventory file which includes everything 
   vars:       # Global varibale
-      URL: play.google.com  
+      URL: play.google.com 
+  vars_prompt:
+       
   tasks: 
     - name: pritning URL  
       ansible.builtin.debug:
