@@ -4,4 +4,4 @@
     - name: Copy file 
       ansible.builtin.copy:
         src: /home/centos/copy-file.txt
-        dest: /etc/foo.conf
+        dest: /home/centis/copies-file.txt
