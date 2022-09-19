@@ -1,6 +1,6 @@
 - name: demo on ingore errors 
   hosts: all  
   tasks: 
-    - name: pritning URL  
+    - name: Check Tomcat is running or not
       ansible.builtin.debug:
         msg: Url that we print is {{ URL }}  
