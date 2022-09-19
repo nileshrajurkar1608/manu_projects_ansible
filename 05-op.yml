@@ -9,4 +9,4 @@
       debug: 
         msg: "{{OUT.stdout}}"
   
-    - name
+    - name:  
