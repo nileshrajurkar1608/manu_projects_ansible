@@ -1,4 +1,4 @@
 - name: demo on variables 
   hosts: all  # all is default group in inventory file which includes everything 
   vars: 
-      URL:
+      URL: play.google.com
