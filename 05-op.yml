@@ -9,4 +9,5 @@
       debug: 
         msg: "{{OUT.stdout}}"
   
-    - name:  
+    - name: Declaring variable 
+      set_fact:
