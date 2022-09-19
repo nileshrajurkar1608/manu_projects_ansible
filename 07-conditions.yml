@@ -4,6 +4,7 @@
     - name: Run this when the OS is CentOS 
       ansible.builtin.debug: 
           msg: Hello to centos  
+      when: 
 
     - name: Run this when the OS is Ubuntu 
       ansible.builtin.debug: 
