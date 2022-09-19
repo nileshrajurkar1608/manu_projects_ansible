@@ -26,4 +26,4 @@
 # Prirting an undefined variable throws you exception.
 
 
-# Prompt variables : readp -
+# Prompt variables : read -p 
