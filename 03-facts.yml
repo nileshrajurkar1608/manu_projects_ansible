@@ -1,1 +1,12 @@
 - name: demo on facts
+  hosts: all  # all is default group in inventory file which includes everything 
+  vars:       # Global varibale
+      URL: play.google.com 
+  # vars_prompt:
+  #     - name: URL 
+  #       prompt: Enter URL  
+  #       private: no
+  tasks: 
+    - name: pritning URL  
+      ansible.builtin.debug:
+        msg: Url that we print is {{ URL }}  
