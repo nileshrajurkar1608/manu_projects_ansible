@@ -14,5 +14,5 @@
         STATUS: "{{OUT.rc}}"
     
     - name: printing the uptime status 
-      debug: 
+      ansible.builtin.debug: 
 
