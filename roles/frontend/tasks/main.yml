@@ -14,7 +14,7 @@
     path: /usr/share/nginx/html
     state: absent
 
-    - name: Copy file 
-      ansible.builtin.copy:
+- name: Copy file 
+  ansible.builtin.copy:
         src: copy-file.txt
         dest: /home/centos/copied-file.txt
