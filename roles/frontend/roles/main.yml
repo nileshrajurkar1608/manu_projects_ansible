@@ -1,2 +1,3 @@
 - name: Installing Nginx
-ansible.builtin.package
+  ansible.builtin.package:
+    
