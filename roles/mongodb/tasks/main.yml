@@ -31,7 +31,8 @@
     file: "/tmp/mongodb-main/{{item}}.js"
     idempotent: yes 
   loop: 
-      
+      - catalogue
+      - users 
 
 # - name: Loading Catalogue Schema 
 #   community.mongodb.mongodb_shell:
