@@ -2,5 +2,5 @@
   hosts: {{COMPONENT}} 
   become: yes  # Privileges escalation 
   roles:
-    - mongodb
+    - {{COMPONENT}}
     # - mongodb
