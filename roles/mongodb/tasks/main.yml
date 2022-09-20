@@ -11,5 +11,5 @@
 - name: Updating MongoDB Config
   ansible.builtin.replace:
     path: /etc/mongod.conf
-    regexp: '(\s+)old\.host\.name(\s+.*)?$'
+    regexp: '127.0.0.1'
     replace: '\1new.host.name\2'
