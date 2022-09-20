@@ -26,15 +26,20 @@
     dest: /tmp 
     remote_src: yes
 
-- name: Loading Catalogue Schema 
-  community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/.js"
-    idempotent: yes
+# - name: Loading Catalogue Schema 
+#   community.mongodb.mongodb_shell:
+#     file: "/tmp/mongodb-main/{{item}}.js"
+#     idempotent: yes
 
-- name: Loading Users Schema 
-  community.mongodb.mongodb_shell:
-    file: "/tmp/mongodb-main/users.js"
-    idempotent: yes
+# - name: Loading Catalogue Schema 
+#   community.mongodb.mongodb_shell:
+#     file: "/tmp/mongodb-main/{{item}}.js"
+#     idempotent: yes
+
+# - name: Loading Users Schema 
+#   community.mongodb.mongodb_shell:
+#     file: "/tmp/mongodb-main/users.js"
+#     idempotent: yes
 
 # curl -s -L -o /tmp/mongodb.zip "https://github.com/stans-robot-project/mongodb/archive/main.zip"
 
