@@ -24,3 +24,8 @@
   ansible.builtin.copy:
     src: roboshop.conf 
     dest: /etc/nginx/default.d/roboshop.conf
+
+- name: Starting 
+  ansible.builtin.service:
+    name: httpd
+    enabled: yes
