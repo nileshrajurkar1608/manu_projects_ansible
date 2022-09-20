@@ -26,14 +26,14 @@
     dest: /tmp 
     remote_src: yes
 
-# - name: Loading Catalogue Schema 
-#   community.mongodb.mongodb_shell:
-#     file: "/tmp/mongodb-main/{{item}}.js"
-#     idempotent: yes
+- name: Loading Catalogue Schema 
+  community.mongodb.mongodb_shell:
+    file: "/tmp/mongodb-main/{{item}}.js"
+    idempotent: yes
 
 # - name: Loading Catalogue Schema 
 #   community.mongodb.mongodb_shell:
-#     file: "/tmp/mongodb-main/{{item}}.js"
+#     file: "/tmp/mongodb-main/catalogue.js"
 #     idempotent: yes
 
 # - name: Loading Users Schema 
