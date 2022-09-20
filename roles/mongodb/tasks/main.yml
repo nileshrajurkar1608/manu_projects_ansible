@@ -20,7 +20,7 @@
     state: started
     enabled: yes
 
-- name: Downloading frontend 
+- name: Downloading and extracting mongodb schema  
   ansible.builtin.unarchive:
     src: https://github.com/stans-robot-project/frontend/archive/main.zip
     dest: /tmp 
