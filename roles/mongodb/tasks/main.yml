@@ -4,6 +4,6 @@
     dest: /etc/yum.repod.d/mongodb.repo  
 
 - name: Installing MongoDb
-  ansible.builtin.package:
+  ansible.builtin.yum:
     name: mongodb-org 
     state: present 
