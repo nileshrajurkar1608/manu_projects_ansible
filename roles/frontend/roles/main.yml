@@ -1,2 +1,3 @@
 - name: Printing frontend 
-  
+  ansible.builtin.debug:
+     msg: Url that we print is {{ URL }}  
