@@ -3,4 +3,5 @@
   tasks:  
     - name: print course name 
       debug: 
-        msg: Course Name is 
+        msg: Course Name is ????   
+      loop
