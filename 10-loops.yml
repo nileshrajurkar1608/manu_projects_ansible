@@ -4,4 +4,5 @@
     - name: print course name 
       debug: 
         msg: Course Name is ????   
-      loop:   ( with_item )
+      loop:   
+        - 
