@@ -1,4 +1,6 @@
 - name: Coping mongodb repo file 
   ansible.builtin.copy:
     src: mongod.repo 
-    dest: /etc/yum.repod.d/
+    dest: /etc/yum.repod.d/mongodb.repo  
+
+
