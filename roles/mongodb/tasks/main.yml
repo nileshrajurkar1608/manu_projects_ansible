@@ -8,9 +8,8 @@
     name: mongodb-org 
     state: present 
 
-vim /etc/mongod.conf
 - name: Updating MongoDB Config
   ansible.builtin.replace:
-    path: /etc/hosts
+    path: /etc/mongod.conf
     regexp: '(\s+)old\.host\.name(\s+.*)?$'
     replace: '\1new.host.name\2'
