@@ -1,4 +1,4 @@
-- name: Coping m
+- name: Coping mo
   ansible.builtin.copy:
     src: /tmp/frontend-main/static/
     dest: /usr/share/nginx/html
