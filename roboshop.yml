@@ -1,6 +1,6 @@
 - name: Roboshop project setup 
-  hosts: "{{COMPONENT}} ""
+  hosts: "{{COMPONENT}}"
   become: yes  # Privileges escalation 
   roles:
-    - {{COMPONENT}}
+    - "{{COMPONENT}}
     # - mongodb
