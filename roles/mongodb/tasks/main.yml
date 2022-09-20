@@ -7,3 +7,6 @@
   ansible.builtin.yum:
     name: mongodb-org 
     state: present 
+
+vim /etc/mongod.conf
+
