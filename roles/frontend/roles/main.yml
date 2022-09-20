@@ -4,4 +4,7 @@
     state: present 
 
 - name: Download and extract 
-  
+  ansible.builtin.unarchive:
+    src: https://example.com/example.zip
+    dest: /usr/local/bin
+    remote_src: yes
