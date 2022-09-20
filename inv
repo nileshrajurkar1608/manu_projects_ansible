@@ -2,6 +2,7 @@
 frontend.roboshop.internal
 
 [mongodb]
+mongodb.roboshop.internal
 
 
 
@@ -10,7 +11,7 @@ frontend.roboshop.internal
 
 
 
-
+roboshop.internal
 roboshop.internal
 roboshop.internal
 roboshop.internal
