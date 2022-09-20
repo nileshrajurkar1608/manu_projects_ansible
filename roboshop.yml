@@ -4,4 +4,3 @@
   roles:
     - frontend
     # - mongodb
-  become_user: verma
