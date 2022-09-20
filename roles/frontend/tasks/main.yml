@@ -17,4 +17,4 @@
 - name: Coping frotend context to nginx path 
   ansible.builtin.copy:
      src: /tmp/frontend-main/static/
-    dest: /home/centos/copied-file.txt
+    dest:  /usr/share/nginx/html
