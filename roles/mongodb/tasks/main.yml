@@ -34,6 +34,8 @@
       - catalogue
       - users 
 
+{{with_item}}
+
 # - name: Loading Catalogue Schema 
 #   community.mongodb.mongodb_shell:
 #     file: "/tmp/mongodb-main/catalogue.js"
