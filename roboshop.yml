@@ -1,5 +1,5 @@
 - name: Roboshop project setup 
-  hosts: frontend 
+  hosts: mongod 
   become: yes  # Privileges escalation 
   roles:
     - frontend
