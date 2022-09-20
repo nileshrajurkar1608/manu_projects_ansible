@@ -1,0 +1,4 @@
+- name: Loops sample examples 
+  hosts: all 
+  tasks:  
+  
