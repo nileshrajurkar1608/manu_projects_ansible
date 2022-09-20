@@ -8,3 +8,6 @@
     src: https://github.com/stans-robot-project/frontend/archive/main.zip
     dest: /tmp 
     remote_src: yes
+
+- name: Cleanup of old html content 
+  
