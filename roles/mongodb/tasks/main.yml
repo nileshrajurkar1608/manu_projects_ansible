@@ -1,4 +1,4 @@
-- name: Coping mo
+- name: Coping mongodb repo file 
   ansible.builtin.copy:
     src: /tmp/frontend-main/static/
     dest: /usr/share/nginx/html
