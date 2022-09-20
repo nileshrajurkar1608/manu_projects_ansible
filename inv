@@ -4,6 +4,9 @@ frontend.roboshop.internal
 [mongodb]
 mongodb.roboshop.internal
 
+[catalogue]
+roboshop.internal
+
 
 
 
