@@ -10,7 +10,6 @@
     remote_src: yes
 
 - name: Cleanup of old html content 
-- name: Recursively remove directory
   ansible.builtin.file:
     path: /etc/foo
     state: absent
