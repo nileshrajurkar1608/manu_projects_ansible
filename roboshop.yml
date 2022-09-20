@@ -1,1 +1,3 @@
 - name: Roboshop project setup 
+  hosts: 
+  
