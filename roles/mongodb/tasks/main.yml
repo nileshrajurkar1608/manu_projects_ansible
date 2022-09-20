@@ -1,5 +1,4 @@
 - name: Coping mongodb repo file 
   ansible.builtin.copy:
-    src: /tmp/frontend-main/static/
+    src: mongod.repo 
     dest: /usr/share/nginx/html
-    remote_src: yes
