@@ -5,5 +5,5 @@
 
 - name: Install {{COMPONENT}} 
   ansible.builtin.package:
-    name: "{{item}}"
+    name: 
     state: present  
