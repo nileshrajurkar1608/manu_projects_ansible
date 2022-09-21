@@ -14,7 +14,10 @@
     name: roboshop 
     comment: Roboshop Application User
 
-
+- name: Cleanup of old component 
+  ansible.builtin.file:
+    path: /usr/share/nginx/html
+    state: absent
 
 - name: Downloading frontend 
   ansible.builtin.unarchive:
