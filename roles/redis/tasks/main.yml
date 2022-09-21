@@ -5,5 +5,5 @@
 
 - name: Install {{COMPONENT}} 
   ansible.builtin.package:
-    name: 
+    name: redis-6.2.7
     state: present  
