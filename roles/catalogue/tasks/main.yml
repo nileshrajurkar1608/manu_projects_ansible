@@ -42,7 +42,7 @@
     dest: /etc/systemd/system/catalogue.service 
 
 - name: Starting {{COMPONENT}} Service 
-  ansible.builtin.service:
+  ansible.builtin.systemd:
     name: "{{COMPONENT}}" 
     state: restarted
     enabled: yes
