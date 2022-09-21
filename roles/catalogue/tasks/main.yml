@@ -11,7 +11,7 @@
   
 - name: Creating application user
   ansible.builtin.user:
-    name: roboshop 
+    name: "" 
     comment: Roboshop Application User
 
 - name: Cleanup of old component 
