@@ -11,7 +11,5 @@
   
 - name: Creating application user
   ansible.builtin.user:
-    name: johnd
+    name: roboshop 
     comment: John Doe
-    uid: 1040
-    group: admin
