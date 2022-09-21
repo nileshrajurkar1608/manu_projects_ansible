@@ -34,5 +34,6 @@
 
 - name: Install NodeJS packages based on package.jso file 
   community.general.npm:
-    path: /home/{{APPUSER}}
+    path: /home/{{APPUSER}}/{{COMPONENT}}/  
+
 
