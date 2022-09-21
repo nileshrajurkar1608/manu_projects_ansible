@@ -1,12 +1,11 @@
 [Unit]
-Description = User Service
+Description = Cart Service
 [Service]
 User=roboshop
-Environment=MONGO=true
-Environment=REDIS_HOST=redis.roboshop.internal
-Environment=MONGO_URL="mongodb://mongodb.roboshop.internal:27017/users"
-ExecStart=/bin/node /home/roboshop/user/server.js
-SyslogIdentifier=user
+Environment=REDIS_HOST=REDIS_ENDPOINT
+Environment=CATALOGUE_HOST=CATALOGUE_ENDPOINT
+ExecStart=/bin/node /home/roboshop/cart/server.js
+SyslogIdentifier=cart
 
 [Install]
 WantedBy=multi-user.target
