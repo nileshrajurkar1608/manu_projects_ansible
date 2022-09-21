@@ -1,2 +1,2 @@
 - name: Configure the Yum Repos 
-  ansible.build
+  ansible.builtin.shell: 
