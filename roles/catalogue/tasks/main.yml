@@ -32,7 +32,7 @@
     remote_src: yes
   become_user: "{{APPUSER}}"
 
-- name: Install NodeJS packages based on package.json.
+- name: Install NodeJS packages based on package.jso file 
   community.general.npm:
-    path: /app/location
+    path: /home/{{APPUSER}}
 
