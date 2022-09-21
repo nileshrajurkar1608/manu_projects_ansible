@@ -25,7 +25,7 @@
     dest: /tmp 
     remote_src: yes 
 
-- name: Coping {{COMPONENT}} context to nginx path 
+- name: Coping {{COMPONENT}} to {{APPUSER}}
   ansible.builtin.copy:
     src: /tmp/frontend-main/static/
     dest: /usr/share/nginx/html
