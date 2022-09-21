@@ -1,6 +1,4 @@
-- name: Coping {{COMPONENT}} to {{APPUSER}}
+- name: Coping {{COMPONENT}} repo 
   ansible.builtin.copy:
     src: /tmp/{{COMPONENT}}-main/
     dest: /home/{{APPUSER}}/{{COMPONENT}}/
-    remote_src: yes
-  become_user: "{{APPUSER}}"
