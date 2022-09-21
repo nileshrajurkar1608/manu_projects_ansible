@@ -12,4 +12,4 @@
 - name: Creating application user
   ansible.builtin.user:
     name: roboshop 
-    comment: John Doe
+    comment: Roboshop Application User
