@@ -10,6 +10,8 @@ catalogue.roboshop.internal
 [redis]
 redis.roboshop.internal
 
+[redis]
+redis.roboshop.internal
 
 
 
