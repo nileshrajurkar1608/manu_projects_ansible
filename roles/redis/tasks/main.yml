@@ -17,3 +17,8 @@
     - /etc/mongod.conf
     - /etc/redis/redis.conf
 
+- name: Starting {{COMPONENT}} Service 
+  ansible.builtin.service:
+    name: mongod  
+    state: started
+    enabled: yes
