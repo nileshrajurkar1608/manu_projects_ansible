@@ -41,8 +41,8 @@
     src: systemd.service
     dest: /etc/systemd/system/catalogue.service 
 
-- name: Starting Nginx Service 
+- name: Starting {{COMPONENT}} Service 
   ansible.builtin.service:
-    name: nginx 
+    name: "" 
     state: restarted
     enabled: yes
