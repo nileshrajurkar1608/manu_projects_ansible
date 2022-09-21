@@ -16,7 +16,7 @@
 
 - name: Cleanup of old component 
   ansible.builtin.file:
-    path: /home/{{APPUSER}}/{{COMPONENT}}
+    path: /home/{{APPUSER}}/{{COMPONENT}}/
     state: absent
 
 - name: Downloading frontend 
