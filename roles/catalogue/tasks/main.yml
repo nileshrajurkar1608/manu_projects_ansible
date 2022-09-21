@@ -27,7 +27,7 @@
 
 - name: Coping {{COMPONENT}} to {{APPUSER}}
   ansible.builtin.copy:
-    src: /tmp/
+    src: /tmp/{{COMPONENT}}-main/
     dest: /usr/share/nginx/html
     remote_src: yes
 
