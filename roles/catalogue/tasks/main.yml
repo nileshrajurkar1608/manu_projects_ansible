@@ -19,7 +19,7 @@
     path: /home/{{APPUSER}}/{{COMPONENT}}/
     state: absent
 
-- name: Downloading frontend 
+- name: Downloading {{COMPONENT}} 
   ansible.builtin.unarchive:
     src: https://github.com/stans-robot-project/catalogue/archive/main.zip
     dest: /tmp 
