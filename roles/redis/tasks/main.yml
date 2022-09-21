@@ -1,4 +1,4 @@
 - name: Coping {{COMPONENT}} repo 
   ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
+    src: redis.repo 
     dest: /home/{{APPUSER}}/{{COMPONENT}}/
