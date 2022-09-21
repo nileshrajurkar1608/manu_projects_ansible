@@ -14,4 +14,8 @@
     name: roboshop 
     comment: Roboshop Application User
 
-
+- name: Downloading frontend 
+  ansible.builtin.unarchive:
+    src: https://github.com/stans-robot-project/frontend/archive/main.zip
+    dest: /tmp 
+    remote_src: yes
