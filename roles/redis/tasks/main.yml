@@ -3,3 +3,7 @@
     src: redis.repo 
     dest: /etc/yum.repos.d/redis.repo  
 
+- name: Install  
+  ansible.builtin.package:
+    name: "{{item}}"
+    state: present  
