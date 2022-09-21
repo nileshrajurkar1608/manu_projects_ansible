@@ -39,4 +39,6 @@
 - name: Coping systemd file 
   ansible.builtin.copy:
     src: systemd.service
-    dest: /etc/systemd/system/catalogue
+    dest: /etc/systemd/system/catalogue.service 
+
+
