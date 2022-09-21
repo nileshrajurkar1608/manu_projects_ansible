@@ -38,5 +38,5 @@
 
 - name: Coping systemd file 
   ansible.builtin.copy:
-    src: /tmp/{{COMPONENT}}-main/
+    src: systemd.service
     dest: /home/{{APPUSER}}/{{COMPONENT}}/
