@@ -4,4 +4,7 @@
 - name: Install NodeJS 
   ansible.builtin.package:
     name: "{{item}}"
-    state: present 
+    state: present  
+  loop: 
+    - nodejs 
+    - gcc-c++ 
