@@ -16,7 +16,7 @@
     tasks_from: download-and-extract 
 
 - name: Generating Package 
-  ansible.builtin.shell: 
+  ansible.builtin.shell: mvn clean package && 
   
 
 # # 8-Shipping
