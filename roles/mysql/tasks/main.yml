@@ -68,7 +68,7 @@
     login_user: root 
     login_password: RoboShop@1
     name: all 
-    target: /tmp/mysql-main/
+    target: /tmp/mysql-main/shipping.sql 
 
     
     #If you don't mention this, by def it calls main.yml 
