@@ -67,8 +67,8 @@
     check_implicit_admin: yes
     login_user: root 
     login_password: RoboShop@1
-    name: bobdata
-    state: present
+    name: all 
+
     
     #If you don't mention this, by def it calls main.yml 
 # 07-MySql
