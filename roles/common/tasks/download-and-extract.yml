@@ -10,3 +10,4 @@
     dest: /home/{{APPUSER}}/{{COMPONENT}}/
     remote_src: yes
   become_user: "{{APPUSER}}"
+  ignore_errors: yes 
