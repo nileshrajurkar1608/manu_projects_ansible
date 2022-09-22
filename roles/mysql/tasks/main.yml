@@ -33,7 +33,8 @@
 - name: Copy the SQL Password Command File 
   ansible.builtin.copy: 
     src: rootpassword.sql 
-    dest: /tmp/roop
+    dest: /tmp/rootpassword.sql 
+    
 
 # 07-MySql
 
