@@ -28,6 +28,7 @@
 - name: Reset password 
   debug: 
     msg: "{{mysql_stat}}"
+  when: mysql_stat.
 
 # 07-MySql
 
