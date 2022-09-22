@@ -9,15 +9,15 @@
     - nodejs 
     - gcc-c++  
   
-- name: Creating application user
-  ansible.builtin.user:
-    name: "{{APPUSER}}" 
-    comment: Roboshop Application User
+# - name: Creating application user
+#   ansible.builtin.user:
+#     name: "{{APPUSER}}" 
+#     comment: Roboshop Application User
 
 - name: Creating application user
   ansible.builtin.include_role:
     name: common 
-    tasks_from: download-and-extract   
+    tasks_from: create-user
 
 - name: Cleanup of old component 
   ansible.builtin.file:
