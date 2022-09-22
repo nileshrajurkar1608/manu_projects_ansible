@@ -51,8 +51,9 @@
   block: 
     - name: Copy the SQL Unistall Password Plugin file 
       ansible.builtin.copy: 
-        src: rootpassword.sql 
-        dest: /tmp/rootpassword.sql 
+        src: password-validate.sql
+        dest: /tmp/password-validate.sql
+        
     - name: Copying the file 
       ansible.builtin.shell: grep "temporary" /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}'
       register: DEFAULT_ROOT_PASSWORD
