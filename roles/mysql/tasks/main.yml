@@ -28,7 +28,7 @@
 - name: Reset password 
   debug: 
     msg: "{{mysql_stat}}"
-  when: mysql_stat.
+  when: mysql_stat.failed
 
 # 07-MySql
 
