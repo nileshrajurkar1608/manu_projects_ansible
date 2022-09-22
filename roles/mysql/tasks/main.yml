@@ -63,10 +63,10 @@
     dest: /tmp 
     remote_src: yes 
 # Calling a task from another role 
-- name: Nodejs Configuration 
+- name:  Download and extract {{COMPONENT}}
   ansible.builtin.include_role:
     name: common 
-    tasks_from: nodejs   #If you don't mention this, by def it calls main.yml 
+    tasks_from: download-and-extract   #If you don't mention this, by def it calls main.yml 
 # 07-MySql
 
 # MySQL is the database service that is needed for the application. So we need to install it and configure it for the application to work.
