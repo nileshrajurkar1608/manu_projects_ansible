@@ -14,7 +14,7 @@
     name: "{{APPUSER}}" 
     comment: Roboshop Application User
 
-- name:  Download and extract {{COMPONENT}}
+- name: Creating application user
   ansible.builtin.include_role:
     name: common 
     tasks_from: download-and-extract   
