@@ -45,6 +45,7 @@
   register: PLUGIN_INFO 
   ignore_errors: yes 
 
+    # This task should only execture if the above task is a failure.
 
 
 # 07-MySql
