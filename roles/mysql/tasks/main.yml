@@ -25,7 +25,8 @@
 
 # This task should only execture if the above task is a failure.
 - name: Reset password 
-
+  debug: 
+    msg: Resetting the password 
 
 
 # 07-MySql
