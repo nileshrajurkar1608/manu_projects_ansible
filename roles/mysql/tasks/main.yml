@@ -28,6 +28,10 @@
 - name: Fetching password 
   ansible.builtin.shell: grep "temporary" /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}'
   register: DEFAULT_ROOT_PASSWORD
+
+- name: printing the password 
+  debug: 
+    msg: "{{DEFAULT_ROOT_PASSWORD}}"
 #   when: mysql_stat.failed 
 
 # - name: Copy the SQL Password Command File 
