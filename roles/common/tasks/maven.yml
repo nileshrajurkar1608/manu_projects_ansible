@@ -1,6 +1,9 @@
 
 
-
+- name: Installing Maven 
+  ansible.builtin.package:
+    name: nginx 
+    state: present 
 
 # # 8-Shipping
 
