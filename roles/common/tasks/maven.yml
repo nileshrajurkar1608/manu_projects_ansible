@@ -15,7 +15,8 @@
     name: common 
     tasks_from: download-and-extract 
 
-- name: Generating 
+- name: Generating Package 
+  ansible
   
 
 # # 8-Shipping
