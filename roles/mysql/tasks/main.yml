@@ -37,7 +37,7 @@
   when: mysql_stat.failed  
 
 - name: Changing password 
-  ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"${DEFAULT_ROOT_PASSWORD}
+  ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"${DEFAULT_ROOT_PASSWORD}" < /tmp/rootpassword.sql 
   when: mysql_stat.failed 
 
 # 07-MySql
