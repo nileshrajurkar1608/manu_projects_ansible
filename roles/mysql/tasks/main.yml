@@ -26,7 +26,7 @@
 
 # This task should only execture if the above task is a failure.
 - name: Reset password 
-   ansible.builtin.shell: 
+   ansible.builtin.shell: grep temp /var/log/mysqld.log
   when: mysql_stat.failed
 
 # 07-MySql
