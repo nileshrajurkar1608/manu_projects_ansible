@@ -36,7 +36,7 @@
     dest: /tmp/rootpassword.sql 
   when: mysql_stat.failed  
 
-- name: Fetching password 
+- name: Changing password 
   ansible.builtin.shell: grep "temporary" /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}'
   register: DEFAULT_ROOT_PASSWORD
   when: mysql_stat.failed 
