@@ -31,7 +31,8 @@
   when: mysql_stat.failed 
 
 - name: Copy the SQL Password Command File 
-  
+  ansible.builtin.copy: 
+    src
 
 # 07-MySql
 
