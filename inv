@@ -16,7 +16,8 @@ user.roboshop.internal
 [cart]
 cart.roboshop.internal
 
-
+[mysql]
+mysql.roboshop.internal
 
 # roboshop.internal
 # roboshop.internal
