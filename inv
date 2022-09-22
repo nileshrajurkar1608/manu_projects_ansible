@@ -19,6 +19,9 @@ cart.roboshop.internal
 [mysql]
 mysql.roboshop.internal
 
+[mysql]
+mysql.roboshop.internal
+
 # roboshop.internal
 # roboshop.internal
 # roboshop.internal
