@@ -52,8 +52,7 @@
 #     enabled: yes
 #     daemon_reload: yes
 
-systemd-start-svc
-- name: Configuing the {{COMPONENT}}
+- name: Configuing the {{COMPONENT}} svc
   ansible.builtin.include_role:
     name: common 
-    tasks_from: create-user
+    tasks_from: systemd-start-svc
