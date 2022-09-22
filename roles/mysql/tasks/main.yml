@@ -45,7 +45,8 @@
   register: PLUGIN_INFO 
   ignore_errors: yes 
 
-    # This task should only execture if the above task is a failure.
+# This task should only execture if the above task is a failure: Which means plugin exists 
+
 
 
 # 07-MySql
