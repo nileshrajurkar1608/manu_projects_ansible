@@ -24,7 +24,8 @@
   ignore_errors: yes  
   register: mysql_stat 
 
-- name: Reset Password
+- name: Reset Password 
+  w
 
 # This task should only execture if the above task is a failure.
 - name: Fetching password 
