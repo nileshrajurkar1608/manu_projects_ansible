@@ -50,6 +50,14 @@
   when: PLUGIN_INFO.rc == 0 
   block: 
 
+    - name: Fetching password 
+      ansible.builtin.shell: grep "temporary" /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}'
+      register: DEFAULT_ROOT_PASSWORD
+
+    - name: Copy the SQL Password Command File 
+      ansible.builtin.copy: 
+        src: rootpassword.sql 
+        dest: /tmp/rootpassword.sql 
 
 # 07-MySql
 
