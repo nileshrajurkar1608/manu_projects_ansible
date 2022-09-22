@@ -49,7 +49,7 @@
 - name: Uninstalling the plugin  
   when: PLUGIN_INFO.rc == 0 
   block: 
-    - name: Copy the SQL Password Command File 
+    - name: Copy the SQL Unistall Password Plugin file 
       ansible.builtin.copy: 
         src: rootpassword.sql 
         dest: /tmp/rootpassword.sql 
