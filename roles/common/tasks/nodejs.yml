@@ -53,3 +53,7 @@
 #     daemon_reload: yes
 
 systemd-start-svc
+- name: Creating application user
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: create-user
