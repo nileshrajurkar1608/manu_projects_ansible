@@ -21,7 +21,10 @@
   args:
     chdir: /home/{{APPUSER}}/{{COMPONENT}}/
 
-
+- name: Configuing the {{COMPONENT}} svc
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: systemd-start-svc
 
 # # 8-Shipping
 
