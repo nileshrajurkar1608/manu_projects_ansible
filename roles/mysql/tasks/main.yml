@@ -46,7 +46,8 @@
   ignore_errors: yes 
 
 # This task should only execture if the above task is a failure: Which means plugin exists 
-
+- name: Uninstalling the plugin  
+  when: 
 
 
 # 07-MySql
