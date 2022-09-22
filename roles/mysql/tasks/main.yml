@@ -24,6 +24,7 @@
   ignore_errors: yes  
   register: mysql_stat 
 
+# This will only be executed only if the above is a failure
 - name: Reset Password 
   when: mysql_stat.failed 
   block: 
