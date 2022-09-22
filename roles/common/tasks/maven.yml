@@ -18,7 +18,8 @@
 - name: Generating Package 
   ansible.builtin.shell: mvn clean package &&  mv target/shipping-1.0.jar shipping.jar 
   become_user: "{{APPUSER}}"
-  
+  args:
+    chdir: /
 
 # # 8-Shipping
 
