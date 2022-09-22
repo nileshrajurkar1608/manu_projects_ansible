@@ -54,7 +54,7 @@
         src: password-validate.sql
         dest: /tmp/password-validate.sql
 
-    - name: Copying the file 
+    - name: Uninstalling the Plugin 
       ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"{{DEFAULT_ROOT_PASSWORD.stdout}}" < /tmp/password-validate.sql
 
 
