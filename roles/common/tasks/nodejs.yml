@@ -14,6 +14,11 @@
     name: "{{APPUSER}}" 
     comment: Roboshop Application User
 
+- name:  Download and extract {{COMPONENT}}
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: download-and-extract   
+
 - name: Cleanup of old component 
   ansible.builtin.file:
     path: /home/{{APPUSER}}/{{COMPONENT}}/
