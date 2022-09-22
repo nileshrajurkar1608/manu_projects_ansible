@@ -63,7 +63,12 @@
     tasks_from: download-and-extract   
 
 - name: Load the {{COMPONENT}} schema 
-
+  community.mysql.mysql_db:
+    check_implicit_admin: yes
+    login_user: bob
+    login_password: 123456
+    name: bobdata
+    state: present
     
     #If you don't mention this, by def it calls main.yml 
 # 07-MySql
