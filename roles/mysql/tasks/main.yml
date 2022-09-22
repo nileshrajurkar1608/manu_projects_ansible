@@ -24,6 +24,8 @@
   ignore_errors: yes  
   register: mysql_stat 
 
+- name: Reset Password
+
 # This task should only execture if the above task is a failure.
 - name: Fetching password 
   ansible.builtin.shell: grep "temporary" /var/log/mysqld.log | head -n 1 | awk -F " " '{print $NF}'
