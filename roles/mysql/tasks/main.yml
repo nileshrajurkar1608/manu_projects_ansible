@@ -48,6 +48,7 @@
 # This task should only execture if the above task is a failure: Which means plugin exists 
 - name: Uninstalling the plugin  
   when: PLUGIN_INFO.rc == 0 
+  block: 
 
 
 # 07-MySql
