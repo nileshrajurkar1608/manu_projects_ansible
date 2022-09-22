@@ -36,15 +36,9 @@
         src: rootpassword.sql 
         dest: /tmp/rootpassword.sql 
     # This task should only execture if the above task is a failure.
+    - name: Changing password 
+      ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"{{DEFAULT_ROOT_PASSWORD.stdout}}" < /tmp/rootpassword.sql 
 
-
-  when: mysql_stat.failed 
-
-
-  when: mysql_stat.failed  
-
-
-  when: mysql_stat.failed 
 
 # 07-MySql
 
