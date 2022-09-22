@@ -14,6 +14,7 @@
   ansible.builtin.file:
     path: /home/{{APPUSER}}/{{COMPONENT}}/
     state: absent
+  
 
 # # 8-Shipping
 
