@@ -22,7 +22,7 @@
     login_user: root 
     login_password: RoboShop@1 
   ignore_errors: yes  
-  register: mysql
+  register: mysql_stat 
 
 # This task should only execture if the above task is a failure.
 - name: Reset password 
