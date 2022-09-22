@@ -55,7 +55,7 @@
         dest: /tmp/password-validate.sql
 
     - name: Copying the file 
-      ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"{{DEFAULT_ROOT_PASSWORD.stdout}}" < /tmp/rootpassword.sql 
+      ansible.builtin.shell: mysql --connect-expired-password  -uroot -p"{{DEFAULT_ROOT_PASSWORD.stdout}}" < /tmp/password-validate.sql
       register: DEFAULT_ROOT_PASSWORD
 
 
