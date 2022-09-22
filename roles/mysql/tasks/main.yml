@@ -10,7 +10,7 @@
 
 - name: Starting {{COMPONENT}} Service 
   ansible.builtin.service:
-    name: mysql  
+    name: mysqld
     state: started
     enabled: yes
 # This has to fetch the password only when the default password is not changed
