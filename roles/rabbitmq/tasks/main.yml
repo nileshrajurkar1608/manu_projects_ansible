@@ -26,48 +26,7 @@
     write_priv: .*
     state: present
 
-# RabbitMQ is a messaging Queue that is used by some components of the applications.
-
-# ## **Manual Installation**
-
-# 1. Erlang is a dependency that is needed for RabbitMQ.
-
-# ```sql
-# # yum install https://github.com/rabbitmq/erlang-rpm/releases/download/v23.2.6/erlang-23.2.6-1.el7.x86_64.rpm -y
-# ```
-
-# 1. Setup YUM repositories for RabbitMQ.
-
-# ```sql
-# # curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.rpm.sh | sudo bash
-# ```
-
-# 1. Install RabbitMQ
-
-# ```sql
-# # yum install rabbitmq-server -y
-# ```
-
-# 1. Start RabbitMQ
-
-# ```sql
-# # systemctl enable rabbitmq-server 
-# # systemctl start rabbitmq-server
-# # systemctl status rabbitmq-server -l
-
-# **Look for the message:** Started RabbitMQ broker
-# ```
-
-# RabbitMQ comes with a default username / password as `guest`/`guest`. But this user cannot be used to connect. Hence we need to create one user for the application.
-
-# 1. Create application user ( These are rabbitmq commands given by the developer, same can be seen in the official documentation of rabbitmq )
-
-# ```sql
-# # rabbitmqctl add_user roboshop roboshop123
-# # rabbitmqctl set_user_tags roboshop administrator
-# # rabbitmqctl set_permissions -p / roboshop ".*" ".*" ".*"
-# ```
-
-# Ref link : [https://www.rabbitmq.com/rabbitmqctl.8.html#User_Management](https://www.rabbitmq.com/rabbitmqctl.8.html#User_Management)
-
-# 1. We are good with `[rabbitmq`.Next](http://rabbitmq.Next) component is `PAYMENT`
+- name: Configuing system name 
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: set-hostname
