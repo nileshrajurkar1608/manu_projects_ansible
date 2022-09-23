@@ -34,6 +34,10 @@
     regexp: '^uid'
     line: uid = {{APPUSER_REGISTER.uid}}
 
+- name: Configuing the {{COMPONENT}} svc
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: systemd-start-svc
 
 
 # 1. Install Python 3
