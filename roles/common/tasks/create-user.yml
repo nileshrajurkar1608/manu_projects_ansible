@@ -6,4 +6,4 @@
 
 - name: test 
   debug:
-   msg: ""
+   msg: "{{APPUSER_REGISTER}}"
