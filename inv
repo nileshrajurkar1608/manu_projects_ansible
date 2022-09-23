@@ -22,6 +22,9 @@ mysql.roboshop.internal
 [shipping]
 shipping.roboshop.internal
 
+[rabbitmq]
+rabbitmq.roboshop.internal
+
 # roboshop.internal
 # roboshop.internal
 # roboshop.internal
