@@ -24,7 +24,7 @@
 
 - name: Updating GID in {{COMPONENET}} file 
   ansible.builtin.lineinfile:
-    path: /etc/selinux/config
+    path: /home/roboshop/{{COMPONENT}}
     regexp: '^SELINUX='
     line: SELINUX=enforcing
 
