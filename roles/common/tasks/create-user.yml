@@ -3,3 +3,7 @@
     name: "{{APPUSER}}" 
     comment: Roboshop Application User
   register: APPUSER_REGISTER
+
+- name: test 
+  debug:
+   msg: ""
