@@ -17,7 +17,8 @@
     name: common 
     tasks_from: download-and-extract 
 
-- name: Installing {{COMPONNET}} Dependencies
+- name: Installing {{COMPONNET}} Dependencies 
+  ansible.builtin.pip:
 
 # 1. Install Python 3
 
