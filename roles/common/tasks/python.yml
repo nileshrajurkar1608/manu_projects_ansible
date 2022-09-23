@@ -34,6 +34,8 @@
     regexp: '^uid'
     line: uid = {{APPUSER_REGISTER.uid}}
 
+
+
 # 1. Install Python 3
 
 # ```sql
