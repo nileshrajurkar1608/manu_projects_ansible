@@ -1,5 +1,2 @@
 - name: Set host name
-  ansible.builtin.shell: mvn clean package &&  mv target/shipping-1.0.jar shipping.jar 
-  become_user: "{{APPUSER}}"
-  args:
-    chdir: /home/{{APPUSER}}/{{COMPONENT}}/
+  ansible.builtin.shell: disable-auto-shitdonw 
