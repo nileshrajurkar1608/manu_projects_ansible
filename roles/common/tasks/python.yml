@@ -17,7 +17,7 @@
     name: common 
     tasks_from: download-and-extract 
 
-- name: 
+- name: Installing {{COMPONNET}} Dependencies
 
 # 1. Install Python 3
 
