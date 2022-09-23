@@ -91,3 +91,5 @@ for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-p
 ### Command to run an encrypted playbook 
 
 ```
+ansible-playbook --ask-vault-password 12-secret.yml
+```
