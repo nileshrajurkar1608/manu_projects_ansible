@@ -2,4 +2,4 @@
   ansible.builtin.user:
     name: "{{APPUSER}}" 
     comment: Roboshop Application User
-  register: {{APPUSER_REGISTER}}
+  register: APPUSER_REGISTER
