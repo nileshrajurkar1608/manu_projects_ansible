@@ -25,8 +25,8 @@
 - name: Updating GID in {{COMPONENET}} file 
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini 
-    regexp: '^SELINUX='
-    line: SELINUX=enforcing
+    regexp: '^gid'
+    line: gid=enforcing
 
 # 1. Install Python 3
 
