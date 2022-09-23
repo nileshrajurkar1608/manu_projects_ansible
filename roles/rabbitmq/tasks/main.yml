@@ -12,10 +12,10 @@
 
 - name: Starting {{COMPONENT}} Service 
   ansible.builtin.systemd:
-    name: "{{COMPONENT}}" 
+    name: "{{COMPONENT}}-server" 
     state: restarted
     enabled: yes
-    daemon_reload: yes
+
 
 # RabbitMQ is a messaging Queue that is used by some components of the applications.
 
