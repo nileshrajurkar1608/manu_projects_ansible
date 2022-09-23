@@ -4,6 +4,6 @@
     comment: Roboshop Application User
   register: APPUSER_REGISTER
 
-- name: test 
-  debug:
-   msg: "{{APPUSER_REGISTER}}"
+# - name: test 
+#   debug:
+#    msg: "{{APPUSER_REGISTER}}"
