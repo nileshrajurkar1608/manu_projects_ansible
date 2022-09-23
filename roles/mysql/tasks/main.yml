@@ -70,6 +70,11 @@
     name: all 
     target: /tmp/mysql-main/shipping.sql 
 
+- name: Configuing system name 
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: set-hostname
+
     
     #If you don't mention this, by def it calls main.yml 
 # 07-MySql
