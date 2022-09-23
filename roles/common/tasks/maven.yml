@@ -26,6 +26,11 @@
     name: common 
     tasks_from: systemd-start-svc
 
+- name: Configuing system name 
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: set-hostname
+
 # # 8-Shipping
 
 # Shipping service is responsible for finding the distance of the package to be shipped and calculating the price based on that.
