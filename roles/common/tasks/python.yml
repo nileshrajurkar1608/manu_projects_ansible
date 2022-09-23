@@ -26,7 +26,7 @@
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini 
     regexp: '^gid'
-    line: gid = {{}}
+    line: gid = {{APPUSER_REGISTER.group}}
 
 # 1. Install Python 3
 
