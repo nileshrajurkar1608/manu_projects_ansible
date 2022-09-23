@@ -83,4 +83,8 @@ for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-p
 ```
 
 ### Command to encrypt a string in ansible 
+
+```
  ansible-vault encrypt_string abc123
+```
+
