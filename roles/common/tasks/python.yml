@@ -11,7 +11,11 @@
   ansible.builtin.include_role:
     name: common 
     tasks_from: create-user
-
+    
+- name:  Download and extract {{COMPONENT}}
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: download-and-extract 
 
 
 # 1. Install Python 3
