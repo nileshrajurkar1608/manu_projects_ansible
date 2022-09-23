@@ -2,7 +2,7 @@
 - name: Python Configuration 
   ansible.builtin.include_role:
     name: common 
-    tasks_from: nodejs   #If you don't mention this, by def it calls main.yml 
+    tasks_from: python   #If you don't mention this, by def it calls main.yml 
 
 
 # 1. Install Python 3
