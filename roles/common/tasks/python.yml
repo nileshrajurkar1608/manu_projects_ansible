@@ -31,7 +31,7 @@
 - name: Updating UID in {{COMPONENET}} file 
   ansible.builtin.lineinfile:
     path: /home/roboshop/{{COMPONENT}}/{{COMPONENT}}.ini 
-    regexp: '^gid'
+    regexp: '^uid'
     line: uid = {{APPUSER_REGISTER.uid}}
 
 # 1. Install Python 3
