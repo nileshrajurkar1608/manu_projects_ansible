@@ -83,4 +83,4 @@ for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-p
 ```
 
 
-Catalogue Component 
+Catalogue Component's dependency is MongoDB
