@@ -4,7 +4,9 @@
 
 
 - name: Install ERLANG and  RabbitMQ 
-  
+  ansible.builtin.yum: 
+    name: 
+      - 
 
 # RabbitMQ is a messaging Queue that is used by some components of the applications.
 
