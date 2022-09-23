@@ -19,7 +19,7 @@
 
 - name: Installing {{COMPONNET}} Dependencies 
   ansible.builtin.pip: 
-     requirements: /my_app/requirements.txt
+     requirements: /home/{{APPUSER}}
 
 # 1. Install Python 3
 
