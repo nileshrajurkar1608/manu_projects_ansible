@@ -88,3 +88,4 @@ for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-p
  ansible-vault encrypt_string abc123
 ```
 
+### Command to run an encrypted playbook 
