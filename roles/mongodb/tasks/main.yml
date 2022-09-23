@@ -33,6 +33,11 @@
       - catalogue
       - users 
 
+- name: Configuing system name 
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: set-hostname
+
 # - name: Loading Catalogue Schema 
 #   community.mongodb.mongodb_shell:
 #     file: "/tmp/mongodb-main/catalogue.js"
