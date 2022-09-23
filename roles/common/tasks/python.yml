@@ -22,6 +22,7 @@
      requirements: /home/{{APPUSER}}/{{COMPONENT}}/requirements.txt
      executable: pip3
 
+
 # 1. Install Python 3
 
 # ```sql
