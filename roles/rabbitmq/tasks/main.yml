@@ -1,6 +1,6 @@
 
 - name: Set Up YUM Repos 
-  ansible.builtin.shell:
+  ansible.builtin.shell: yum install 
   register: PLUGIN_INFO 
   ignore_errors: yes 
 
