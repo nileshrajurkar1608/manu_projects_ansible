@@ -81,3 +81,6 @@ ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 -e 
 ```
 for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 -e COMPONENT=$i roboshop.yml; done
 ```
+
+
+MongoDB
