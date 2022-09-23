@@ -13,7 +13,7 @@
 - name: Starting {{COMPONENT}} Service 
   ansible.builtin.systemd:
     name: "{{COMPONENT}}-server" 
-    state: restarted
+    state: started 
     enabled: yes
 
 
