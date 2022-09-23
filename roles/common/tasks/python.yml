@@ -7,6 +7,11 @@
       - python3-devel
     state: installed 
 
+- name: Creating application user
+  ansible.builtin.include_role:
+    name: common 
+    tasks_from: create-user
+
 
 
 # 1. Install Python 3
