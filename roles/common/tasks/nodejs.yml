@@ -60,4 +60,4 @@
 - name: Configuing system name 
   ansible.builtin.include_role:
     name: common 
-    tasks_from: set-hostname 
+    tasks_from: set-hostname
