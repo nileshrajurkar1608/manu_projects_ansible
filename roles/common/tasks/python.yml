@@ -22,7 +22,7 @@
      requirements: /home/{{APPUSER}}/{{COMPONENT}}/requirements.txt
      executable: pip3
 
-- name: Ensure SELinux is set to enforcing mode
+- name: Updating GID in {{COMPONENET}} file 
   ansible.builtin.lineinfile:
     path: /etc/selinux/config
     regexp: '^SELINUX='
