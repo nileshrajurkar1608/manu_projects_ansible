@@ -16,7 +16,15 @@
     state: started 
     enabled: yes
 
-- name: Adding {{COMPONENT}}
+- name: Adding {{COMPONENT}} App User  
+  community.rabbitmq.rabbitmq_user:
+    user: roboshop 
+    password: changeme
+    vhost: /
+    configure_priv: .*
+    read_priv: .*
+    write_priv: .*
+    state: present
 
 # RabbitMQ is a messaging Queue that is used by some components of the applications.
 
