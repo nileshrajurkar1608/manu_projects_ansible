@@ -22,6 +22,11 @@
      requirements: /home/{{APPUSER}}/{{COMPONENT}}/requirements.txt
      executable: pip3
 
+- name: Ensure SELinux is set to enforcing mode
+  ansible.builtin.lineinfile:
+    path: /etc/selinux/config
+    regexp: '^SELINUX='
+    line: SELINUX=enforcing
 
 # 1. Install Python 3
 
