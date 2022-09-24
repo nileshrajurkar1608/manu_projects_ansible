@@ -107,4 +107,7 @@ For ansible pull to work you need to ensure that the machine which executes the 
 
 ## Ansible Tags 
 
+```
 ansible-playbook 13-tags.yml  --skip-tags  web
+ansible-playbook 13-tags.yml  -t web
+```
