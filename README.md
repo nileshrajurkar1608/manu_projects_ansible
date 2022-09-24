@@ -106,7 +106,7 @@ ansible-playbook --ask-vault-password 12-secret.yml
 For ansible pull to work you need to ensure that the machine which executes the pull command has ANSIBLE Installed on the machine.
 
 ```
-
+ansible-pull -U https://github.com/b50-clouddevops/ansible.git -e COMPONENT=frontend -e ENV=dev roboshop-pull.yml
 ```
 
 ## Ansible Tags 
