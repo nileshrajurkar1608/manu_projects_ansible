@@ -80,6 +80,11 @@ ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 -e 
 # FORLOOP:
 ```
 for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-playbook -i inv -e ansible_user=centos -e ansible_password=DevOps321 -e COMPONENT=$i roboshop.yml; done
+
+With Environments,
+
+git pull ; for i in mongodb catalogue redis cart user mysql shipping rabbitmq payment frontend; do ansible-playbook -i dev-inv -e ansible_user=centos -e ansible_password=DevOps321 -e ENV=dev -e COMPONENT=$i roboshop.yml; done
+
 ```
 
 ### Command to encrypt a string in ansible 
