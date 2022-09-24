@@ -11,13 +11,13 @@ catalogue-dev.roboshop.internal
 redis-dev.roboshop.internal
 
 [user]
-user.roboshop.internal
+user-dev.roboshop.internal
 
 [cart]
-cart.roboshop.internal
+cart-dev.roboshop.internal
 
 [mysql]
-mysql.roboshop.internal
+mysql-dev.roboshop.internal
 
 [shipping]
 shipping.roboshop.internal
