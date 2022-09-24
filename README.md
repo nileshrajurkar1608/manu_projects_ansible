@@ -93,3 +93,9 @@ for i in mongodb catalogue redis cart user mysql shipping frontend; do ansible-p
 ```
 ansible-playbook --ask-vault-password 12-secret.yml
 ```
+
+
+
+### Ansible-Pull
+
+For ansible pull to work you need to ensure that the machine which executes the pull command had ANSIBLE Installed.
