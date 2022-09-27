@@ -9,9 +9,9 @@
       debug: 
         msg: "{{OUT.stdout}}"
   
-    # - name: Declaring variable 
-    #   set_fact: 
-    #     STATUS: "{{OUT.rc}}"
+    - name: Declaring variable 
+      set_fact: 
+        STATUS: "{{OUT.rc}}"
     
     - name: printing the uptime status 
       ansible.builtin.debug: 
