@@ -115,3 +115,7 @@ ansible-pull -U https://github.com/b50-clouddevops/ansible.git -e COMPONENT=fron
 ansible-playbook 13-tags.yml  --skip-tags  web
 ansible-playbook 13-tags.yml  -t web
 ```
+
+
+### Test Commits for the ansible-pull 
+Ansible pull needs ansible to installed and ensure version6 is the installed version
