@@ -31,3 +31,6 @@
 
 
 # Prompt variables : read -p 
+# read -p gives you interactive prompt to take inout from the the user 
+
+# But it breaks the script if the user doesn't give the input 
