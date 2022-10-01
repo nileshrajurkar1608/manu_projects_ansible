@@ -1,29 +1,29 @@
 [frontend]
-frontend-prod.roboshop.internal
+frontend-prod.nileshproject.online
 
 [mongodb]
-mongodb-prod.roboshop.internal
+mongodb-prod.nileshproject.online
 
 [catalogue]
-catalogue-prod.roboshop.internal
+catalogue-prod.nileshproject.online
 
 [redis]
-redis-prod.roboshop.internal
+redis-prod.nileshproject.online
 
 [user]
-user-prod.roboshop.internal
+user-prod.nileshproject.online
 
 [cart]
-cart-prod.roboshop.internal
+cart-prod.nileshproject.online
 
 [mysql]
-mysql-prod.roboshop.internal
+mysql-prod.nileshproject.online
 
 [shipping]
-shipping-prod.roboshop.internal
+shipping-prod.nileshproject.online
 
 [rabbitmq]
-rabbitmq-prod.roboshop.internal
+rabbitmq-prod.nileshproject.online
 
 [payment]
-payment-prod.roboshop.internal
+payment-prod.nileshproject.online
